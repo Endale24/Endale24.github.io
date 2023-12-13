@@ -100,3 +100,33 @@ nav ul li a:hover {
     padding: 20px; /* Adjust the padding as needed */
 }
 
+/* CV Section styles */
+#CV {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  #CV h1 {
+    text-align: center;
+  }
+  
+  .cv-iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  #CV p {
+    text-align: center;
+  }
+  
+  #CV a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  #CV a:hover {
+    text-decoration: underline;
+  }
+  
