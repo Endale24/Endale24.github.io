@@ -89,9 +89,14 @@ nav ul li a:hover {
     text-align: left; /* Center-align the text */
 }
 
-/* Additional styles for the homepage section
+/* Additional styles for the homepage section*/
 #home {
-    background-color: rgba(22, 2, 2, 0.811); 
+    background-color: rgba(73, 69, 69, 0.92); 
     padding: 20px; 
 } 
-*/
+
+
+.banner-image-wrapper {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
