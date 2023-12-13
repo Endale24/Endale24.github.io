@@ -28,13 +28,6 @@
             </nav>
         </div>
     </header>
-    <div class="row-fluid hidden-desktop-custom">
-        <div class="span12">
-            <div class="banner-image-wrapper" style="background-image: url('images/RF-Tech.png')">
-                <img src="images/RF-Tech.png" class="banner-image hidden-phone" alt="Wireless RF communication - All you need to know">
-            </div>
-        </div>
-    </div>
     <!-- Rest of your content -->
     <!-- Sections for Publications, Research, Portfolio, etc. -->
     
@@ -68,6 +61,38 @@
         <p>You can download a PDF copy of my CV <a href="files/CV/CV-Endale.pdf">English Version</a> and <a href="files/CV/个人简历.pdf">Chinese Version</a>.</p>
 
     </section>
+
+    <section class="research">
+        <h2>FPGA Design of UART Instruction Controller</h2>
+        <p>In this research, I developed an innovative method for designing a Universal Asynchronous Transceiver (UART) instruction control system.The UART instruction controller is capable of receiving data from a personal computer via the receiving UART and perform the designed arithmetic or logic operations on the FPGA development board and then return the result of the operations to the computer via the transmitting UART. Theis design is focused on the Verilog HDL coding and the FPGA design flow, so a complex instruction set is not necessarily required. The Verilog modules is simulated by Modelsim simulating software and tested on an FPGA.</p>
+        <ul>
+        <p><strong>Research Objectives:</strong></p>   
+          <li>Implementing a UART using an FPGA</li>
+          <li>Setting baud rates and monitoring UART states</li>
+          <li>System modularization using the Top-Down approach</li>
+          <li>Utilizing a Finite State Machine (FSM) for UART logic control</li>
+          <li>Validation and reliability proof through simulation experiments</li>
+        </ul>
+        <p><strong>Design Specifications:</strong></p>
+        <ul>
+          <li>Port Type: UART</li>
+          <li>System Clock Frequency: 24MHz</li>
+          <li>FPGA Board Type: Altera Cyclone I</li>
+          <li>Baud Rate: 9600</li>
+          <li>Instruction Set Architecture: a+b, ~a, a^b, a*b</li>
+        </ul>
+        <p><strong>Specific operations:</strong></p>
+        <ul>
+         <li>Data Receiving Operations: The data reception operations are done by the UART Receiver module. This module is named as UART_RX.</li>
+         <li>Instruction Execution / Arithmetic or Logic Operations: The instruction execution operations are done by the UART Instruction Controller module. This module is named as cmd_pro.</li>
+         <li>Data Transmitting Operations: The data transmission operations are done by the UART Transmitter module. This module is named as UART_TX.</li>
+        </ul>
+        <p><strong>The Generalized System Architecture:</strong> </p>
+        </ul>
+        <img src="images/Generalized.png" alt="Generalized system architecture" style="width:500px;height:400px;">
+        </ul>
+    
+      </section>
 
     <footer>
         &copy; 2023 HABTE ENDALE LEGESSE 
