@@ -100,9 +100,47 @@ nav ul li a:hover {
     padding: 20px; /* Adjust the padding as needed */
 }
 
+#research {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #research h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #research p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  #research ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  #research li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  #research strong {
+    font-weight: bold;
+  }
+  
+  #research img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
 /* CV Section styles */
 #CV {
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
   }
   
@@ -130,3 +168,7 @@ nav ul li a:hover {
     text-decoration: underline;
   }
   
+  #cv {
+    background-color: rgba(81, 59, 59, 0.92); 
+    padding: 20px; 
+} 
