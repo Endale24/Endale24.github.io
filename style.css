@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('images/RF-Tech.png');
+    background-image: url('images/wireless_M-min.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -9,7 +9,8 @@ body {
 }
 
 .upper-section {
-    background-color: #000033;
+    background-image: url('images/site-logo.png');
+    /*background-color: #000033;*/
     color: white;
     padding: 20px;
     text-align: center;
