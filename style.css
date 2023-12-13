@@ -69,11 +69,23 @@ nav ul li a:hover {
     font-size: 32px; /* Adjust font size as needed */
     text-align: center; /* Center-align the text */
 }
+#home h2 {
+    color: rgb(15, 229, 15);
+    font-weight: bold;
+    font-size: 32px; /* Adjust font size as needed */
+    text-align: center; /* Center-align the text */
+}
+#home h3 {
+    color: rgb(15, 229, 15);
+    font-weight: bold;
+    font-size: 32px; /* Adjust font size as needed */
+    text-align: center; /* Center-align the text */
+}
 #home p {
     color: rgb(214, 224, 226);
     font-weight: bold;
     font-size: 22px; /* Adjust font size as needed */
-    text-align: center; /* Center-align the text */
+    text-align: left; /* Center-align the text */
 }
 
 /* Additional styles for the homepage section */
