@@ -115,6 +115,7 @@ nav ul li a:hover {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
+    margin-bottom: 10px;
   }
   
   #research ul {
@@ -161,7 +162,7 @@ nav ul li a:hover {
   
   #CV a {
     text-decoration: none;
-    color: blue;
+    color: rgba(13, 13, 16, 0.916);
   }
   
   #CV a:hover {
@@ -169,6 +170,6 @@ nav ul li a:hover {
   }
   
   #cv {
-    background-color: rgba(81, 59, 59, 0.92); 
+    background-color: rgba(49, 112, 79, 0.92); 
     padding: 20px; 
 } 
