@@ -126,11 +126,20 @@
             if (targetSection) {
               targetSection.style.display = 'block';
               targetSection.scrollIntoView({ behavior: 'smooth' });
+    
+              // Additional handling for CV section
+              if (targetId === 'CV') {
+                const cvIFrames = targetSection.querySelectorAll('.cv-iframe');
+                cvIFrames.forEach(iframe => {
+                  iframe.style.display = 'block';
+                });
+              }
             }
           });
         });
       });
-    </script>    
+    </script>
+      
       
 </body>
 </html>
