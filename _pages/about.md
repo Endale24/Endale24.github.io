@@ -6,9 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![](images/RF-Tech.png)
-
 <h1 style="color: green; font-size: 3em;">Welcome To My Academic Page!</h1>
+![](images/RF-Tech.png)
   <p>I invite you to embark on a journey into the fascinating world of microwave and millimeter-wave signal propagation, where I dedicate my research to exploring the intricate interplay between weather phenomena and wireless communication. As a Master's degree candidate in Information and Communication Engineering at the esteemed School of Electronics and Information Engineering, Beijing Jiaotong University, I am passionate about harnessing the power of explainable deep learning to unlock the secrets of weather's impact on these crucial communication bands.
 
    My research delves into the analysis of time-series data with <a href="https://www.tensorflow.org/">TensorFlow</a>, seeking to understand and predict how weather elements like <strong>Rain</strong>, <strong>Temperature</strong>, <strong>Humidity</strong>, <strong>Cloud cover</strong>, and <strong>Fog</strong> affects signal propagation in the higher frequency band such as mmWave band. Through the meticulous integration of diverse weather and climate data from sources like <a href="https://www.noaa.gov/tools-and-resources/weather-and-climate-resources">NOAA.GOV</a>, <a href="https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/dtbank-dbsg3.aspx">ITUdatabanks</a>, <a href="https://chrs.web.uci.edu/">CHRS</a>, local weather stations, radio wave propagation measurement centers, and more, I strive to paint a comprehensive picture of this complex interplay. 
