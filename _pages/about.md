@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![](/images/RF-Tech.png)
+![](images/RF-Tech.png)
 
 <h1 style="color: green; font-size: 3em;">Welcome To My Academic Page!</h1>
   <p>I invite you to embark on a journey into the fascinating world of microwave and millimeter-wave signal propagation, where I dedicate my research to exploring the intricate interplay between weather phenomena and wireless communication. As a Master's degree candidate in Information and Communication Engineering at the esteemed School of Electronics and Information Engineering, Beijing Jiaotong University, I am passionate about harnessing the power of explainable deep learning to unlock the secrets of weather's impact on these crucial communication bands.
